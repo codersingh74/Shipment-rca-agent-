@@ -1,0 +1,8 @@
+[
+  {"awb": "AWB1001", "expected_cause": "on_track", "expected_tools": ["get_tracking_events"]},
+  {"awb": "AWB1002", "expected_cause": "customer_unavailable", "expected_tools": ["get_tracking_events"]},
+  {"awb": "AWB1003", "expected_cause": "carrier_hub_delay", "expected_tools": ["get_tracking_events", "get_carrier_performance"]},
+  {"awb": "AWB1004", "expected_cause": "address_issue", "expected_tools": ["get_tracking_events"]},
+  {"awb": "AWB1005", "expected_cause": "customer_refused", "expected_tools": ["get_tracking_events"]},
+  {"awb": "AWB1006", "expected_cause": "pincode_unserviceable", "expected_tools": ["get_tracking_events", "check_pincode_serviceability"]}
+]
